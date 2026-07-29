@@ -2,47 +2,47 @@
             {
                 name: "Francis Seng Gum Ja",
                 diocese: "Lashio",
-                image: "/img/francis.jpg"
+                image: "img/francis.jpg"
             },
             {
                 name: "Mary Hung Sein",
                 diocese: "Mindat",
-                image: "/img/hungsein.jpg"
+                image: "img/hungsein.jpg"
             },
             {
                 name: "Mary Kalyar Soe",
                 diocese: "Taungoo",
-                image: "/img/kalayar.jpg"
+                image: "img/kalayar.jpg"
             },
             {
                 name: "Martha Man Sawn Cing",
                 diocese: "Kalay",
-                image: "/img/mansawn.jpg"
+                image: "img/mansawn.jpg"
             },
             {
                 name: "Jocy Htar Htar Paing",
                 diocese: "Loikaw",
-                image: "/img/jocy.jpg"
+                image: "img/jocy.jpg"
             },
             {
                 name: "Cecilia Shwe Zin",
                 diocese: "Mandalay",
-                image: "/img/shwezin.jpg"
+                image: "img/shwezin.jpg"
             },
             {
                 name: "Theresa Seng Sawm Ing",
                 diocese: "Myitkyina",
-                image: "/img/sengsawm.jpg"
+                image: "img/sengsawm.jpg"
             },
             {
                 name: "Monica Htu Ring Ja",
                 diocese: "Bamaw",
-                image : "/img/thuringja.jpg"
+                image : "img/thuringja.jpg"
             },
             {
                 name: "Cecilia Kai Yin",
                 diocese: "Bamaw",
-                image : "/img/kayin.jpg"
+                image : "img/kayin.jpg"
             },
             // {
             //     name: "Nicholas Lian Thawn Muang",
