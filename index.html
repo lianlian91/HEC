@@ -3,186 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Graduation Ceremony Invitation</title>
+    <title>The Graduation Ceremony - Higher Education College</title>
     
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Great+Vibes&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Great+Vibes&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
-
-    <style>
-        :root {
-            --bg-color: #080c61; /* Deep Navy Blue */
-            --gold: #dcb347;     /* Gold text/accents */
-            --banner-bg: #d4b540;/* Yellow/Gold banner */
-        }
-
-        body {
-            background-color: #f4f4f4;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            padding: 20px;
-        }
-
-        .invitation-card {
-            background-color: var(--bg-color);
-            color: var(--gold);
-            max-width: 900px;
-            width: 100%;
-            padding: 40px 20px 60px 20px;
-            position: relative;
-            text-align: center;
-            border: 2px solid var(--gold);
-            /* Simulating ornate corners with a double border look */
-            outline: 2px solid var(--gold);
-            outline-offset: -10px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-        }
-
-        /* Typography */
-        .title {
-            font-family: 'Cinzel', serif;
-            font-size: 2.5rem;
-            font-weight: 700;
-            letter-spacing: 2px;
-            margin-top: 15px;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-        }
-
-        .college-name {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 1.8rem;
-            font-weight: 700;
-            margin-top: 30px; /* Increased margin above text due to larger logo */
-            margin-bottom: 40px;
-            line-height: 1.4;
-        }
-
-        .greeting {
-            font-family: 'Great Vibes', cursive;
-            font-size: 2.8rem;
-            margin-bottom: 60px;
-            letter-spacing: 1px;
-        }
-
-        /* Decorative Elements */
-        .cap-icon {
-            font-size: 4rem;
-            margin-bottom: 10px;
-        }
-
-        .divider {
-            width: 60%;
-            height: 3px;
-            background-color: var(--gold);
-            margin: 0 auto 30px auto;
-            position: relative;
-        }
-        
-        .divider::before {
-            content: "✦";
-            position: absolute;
-            top: -12px;
-            left: 50%;
-            transform: translateX(-50%);
-            background-color: var(--bg-color);
-            padding: 0 15px;
-            font-size: 1.2rem;
-        }
-
-        /* NEW LOGO STYLING */
-        .college-logo {
-            display: block;
-            max-width: 200px; /* Adjust size as needed, e.g., slightly smaller */
-            height: auto;
-            margin: 30px auto 10px; /* Space above and slightly below logo */
-            padding: 10px; /* Padding inside border */
-            background-color: #fff; /* White background to integrate logo cleanly */
-            border: 4px solid var(--gold); /* Thick gold border as requested visually and for integration */
-            border-radius: 8px; /* Slightly rounded corners for integration */
-            box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Subtle shadow for depth */
-        }
-
-        /* Info Banner */
-        .info-banner {
-            background-color: var(--banner-bg);
-            color: var(--bg-color);
-            padding: 20px 10px;
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 700;
-            margin: 0 auto;
-            width: 95%; /* Keep it slightly inside the borders */
-        }
-
-        .info-banner .col-md-4 {
-            padding: 10px 15px;
-        }
-
-        /* Mobile Responsiveness */
-        @media (max-width: 768px) {
-            .title { font-size: 1.8rem; }
-            .college-name { font-size: 1.3rem; margin-top: 20px;}
-            .greeting { font-size: 2rem; margin-bottom: 40px;}
-            .college-logo { max-width: 150px; } /* Slightly smaller on mobile */
-            .info-banner { font-size: 0.9rem; }
-            .info-banner .col-md-4 {
-                border-bottom: 1px solid rgba(8, 12, 97, 0.2);
-            }
-            .info-banner .col-md-4:last-child {
-                border-bottom: none;
-            }
-        }
-    </style>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="invitation-card">
-        
-        <i class="fas fa-graduation-cap cap-icon"></i>
-        <i class="fas fa-scroll cap-icon" style="font-size: 2rem; display: block; margin-top: -15px;"></i>
+    <!-- ==================================================
+         PAGE 1: INVITATION CARD (FULL SCREEN)
+    ================================================== -->
+    <section class="hero-section" id="invitation">
+        <div class="invitation-frame">
+            <!-- Corner Accents -->
+            <div class="corner-ornament corner-tl"></div>
+            <div class="corner-ornament corner-tr"></div>
+            <div class="corner-ornament corner-bl"></div>
+            <div class="corner-ornament corner-br"></div>
 
-        <h1 class="title">The Graduation Ceremony</h1>
-        
-        <div class="divider"></div>
+            <!-- Cap Icon -->
+            <div class="grad-cap-icon">
+                <i class="fa-solid fa-graduation-cap"></i>
+            </div>
 
-        <img src="hec.png" alt="Mandalay Archdiocese Higher Education College Logo" class="college-logo">
+            <h1 class="main-title">THE GRADUATION CEREMONY</h1>
+            
+            <div class="divider">
+                <span class="line"></span>
+                <span class="diamond">◆</span>
+                <span class="line"></span>
+            </div>
 
-        <h2 class="college-name">
-            Mandalay Archdiocese<br>
-            Higher Education College
-        </h2>
+            <!-- School Logo -->
+            <img src="hec.png" alt="Mandalay Archdiocese Higher Education College Logo" class="college-logo">
 
-        <p class="greeting">
-            "You are warmly invited to attend our college graduation ceremony."
-        </p>
+            <h2 class="sub-heading">Mandalay Archdiocese</h2>
+            <h2 class="college-name">Higher Education College</h2>
 
-        <div class="info-banner">
-            <div class="row align-items-center">
-                <div class="col-md-4 text-center">
-                    <div>Date:</div>
-                    <div>26<sup>th</sup> of September, 2026</div>
+            <p class="invitation-quote">
+                "You are warmly invited to attend our college graduation ceremony."
+            </p>
+
+            <!-- Gold Details Banner -->
+            <div class="details-banner">
+                <div class="detail-item">
+                    <span class="label">Date</span>
+                    <span class="value">25<sup>th</sup> of September, 2026</span>
                 </div>
-                
-                <div class="col-md-4 text-center">
-                    <div>Location :</div>
-                    <div>61st x 35C, Mahar Aung Myae,</div>
-                    <div>St. John Church Compound</div>
+                <div class="detail-item location-item">
+                    <span class="label">Location</span>
+                    <span class="value">61st x 35C, Mahar Aung Myae,<br>St. John Church Compound</span>
                 </div>
-                
-                <div class="col-md-4 text-center">
-                    <div>Ceremony: 10:00 A.M</div>
-                    <div>Mass: 7:30 A.M</div>
+                <div class="detail-item">
+                    <span class="label">Time</span>
+                    <span class="value">Ceremony: 10:00 A.M</span>
+                    <span class="value">Mass: 7:30 A.M</span>
                 </div>
+            </div>
+
+            <!-- Scroll Indicator Button -->
+            <a href="#graduates" class="scroll-down-btn">
+                <span>MEET OUR GRADUATING CLASS</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- ==================================================
+         PAGE 2: MEET OUR GRADUATING CLASS
+    ================================================== -->
+    <section class="graduates-section" id="graduates">
+        <div class="section-header">
+            <h2 class="section-title">MEET OUR GRADUATING CLASS</h2>
+            <p class="section-subtitle">Class of 2026 • Higher Education College</p>
+            <div class="divider" style="margin: 15px auto 0;">
+                <span class="line"></span>
+                <span class="diamond">◆</span>
+                <span class="line"></span>
             </div>
         </div>
 
-    </div>
+        <div class="graduates-grid" id="graduatesContainer">
+            <!-- Dynamically populated via JS -->
+        </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <footer class="footer">
+            <p>© 2026 Mandalay Archdiocese Higher Education College. All rights reserved.</p>
+        </footer>
+    </section>
+
+    <!-- ==================================================
+         JAVASCRIPT DATA & RENDER
+    ================================================== -->
+    <script src="script.js"></script>
 </body>
 </html>
