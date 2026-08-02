@@ -31,7 +31,7 @@
             },
             {
                 name: "Nicholas Lian Thawn Muang",
-                diocease: "Hakha",
+                diocese: "Hakha",
                 image: "img/nicholas.jpg"
             },
             {
@@ -46,7 +46,7 @@
             },
             {
                 name: "David Sam Sin",
-                diocease: "Lashio",
+                diocese: "Lashio",
                 image: "img/david.jpg"
             },
             {
