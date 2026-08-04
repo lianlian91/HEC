@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Graduation Ceremony - Higher Education College</title>
-    
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Great+Vibes&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Great+Vibes&family=Montserrat:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
     <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-     <!-- ==================================================
+    <!-- ==================================================
          PAGE 1: INVITATION CARD
     ================================================== -->
     <section class="hero-section" id="invitation">
@@ -38,7 +42,7 @@
 
                 <h1 class="main-title">Graduation Ceremony</h1>
                 <h2 class="batch-title">of Batch 12</h2>
-                
+
                 <div class="divider">
                     <span class="line"></span>
                     <span class="diamond">◆</span>
@@ -110,10 +114,26 @@
             <p>© 2026 Mandalay Archdiocese Higher Education College. All rights reserved.</p>
         </footer>
     </section>
-
+    <!-- ==================================================
+         GRADUATE DETAIL POPUP MODAL
+    ================================================== -->
+    <div class="modal-overlay" id="graduateModal">
+        <div class="modal-card">
+            <button class="modal-close-btn" id="closeModalBtn">&times;</button>
+            <div class="modal-avatar-container">
+                <img src="" alt="Graduate Photo" id="modalImg" class="modal-avatar-img">
+            </div>
+            <h3 class="modal-name" id="modalName">Graduate Name</h3>
+            <div class="modal-badge" id="modalDiocese">Diocese Name</div>
+            <div class="modal-details">
+                Higher Education College • Batch 12
+            </div>
+        </div>
+    </div>
     <!-- ==================================================
          JAVASCRIPT DATA & RENDER
     ================================================== -->
     <script src="script.js"></script>
 </body>
+
 </html>
