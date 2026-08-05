@@ -108,6 +108,46 @@ const graduatesList = [
         name: "Martha Hnin Thiri Wai",
         diocese: "Mawlamyine",
         image: "img/marthaA.jpg"
+    },
+    {
+        name: "Monica Nuam Deih Lawh Cing",
+        diocese: "Kalay",
+        image: "img/cingcing.jpg"
+    },
+    {
+        name: "Cynthia Ko",
+        diocese: "Taungoo",
+        image: "img/cynthia.jpg"
+    },
+    {
+        name: "Rita Muduh Roi Sam",
+        diocese: "Myitkyina",
+        image: "img/rita.jpg"
+    },
+    {
+        name: "Cecilia Dim Muan Hau",
+        diocese: "Kalay",
+        image: "img/muannu.jpg"
+    },
+    {
+        name: "Cecilia Ji Jan",
+        diocese: "Bamaw",
+        image: "img/jijan.png"
+    },
+    {
+        name: "Lawrence Tio",
+        diocese: "Phekhone",
+        image: "img/lawrance.jpg"
+    },
+    {
+        name: "John Mang Deih Khual",
+        diocese: "Kalay",
+        image: "img/john.jpg"
+    },
+    {
+        name: "Margret Phray Mar",
+        diocese: "Loikaw",
+        image: "img/magaret.jpg"
     }
 ];
 
