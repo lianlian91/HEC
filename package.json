@@ -1,0 +1,23 @@
+{
+  "name": "hec-graduation",
+  "version": "1.0.0",
+  "description": "Higher Education College Graduation Ceremony Website",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lianlian91/HEC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lianlian91/HEC/issues"
+  },
+  "homepage": "https://github.com/lianlian91/HEC#readme",
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
+  }
+}
