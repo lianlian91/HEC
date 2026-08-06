@@ -2,62 +2,62 @@ const graduatesList = [
     {
         name: "Francis Seng Gum Ja",
         diocese: "Lashio",
-        image: "img/francis.jpg"
+        image: "img/francis.webp"
     },
     {
         name: "Mary Hung Sein",
         diocese: "Mindat",
-        image: "img/hungsein.jpg"
+        image: "img/hungsein.webp"
     },
     {
         name: "Mary Kalyar Soe",
         diocese: "Taungoo",
-        image: "img/kalayar.jpg"
+        image: "img/kalayar.webp"
     },
     {
         name: "Martha Man Sawn Cing",
         diocese: "Kalay",
-        image: "img/mansawn.jpg"
+        image: "img/mansawn.webp"
     },
     {
         name: "Jocy Htar Htar Paing",
         diocese: "Loikaw",
-        image: "img/jocy.jpg"
+        image: "img/jocy.webp"
     },
     {
         name: "Cecilia Shwe Zin",
         diocese: "Mandalay",
-        image: "img/shwezin.jpg"
+        image: "img/shwezin.webp"
     },
     {
         name: "Nicholas Lian Thawn Muang",
         diocese: "Hakha",
-        image: "img/nicholas.jpg"
+        image: "img/nicholas.webp"
     },
     {
         name: "Mary Hkawn San",
         diocese: "Myitkyina",
-        image: "img/hkawnsan.jpg"
+        image: "img/hkawnsan.webp"
     },
     {
         name: "Theresa Seng Sawm Ing",
         diocese: "Myitkyina",
-        image: "img/sengsawm.jpg"
+        image: "img/sengsawm.webp"
     },
     {
         name: "David Sam Sin",
         diocese: "Lashio",
-        image: "img/david.jpg"
+        image: "img/david.webp"
     },
     {
         name: "Monica Htu Ring Ja",
         diocese: "Banmaw",
-        image: "img/thuringja.jpg"
+        image: "img/thuringja.webp"
     },
     {
         name: "Cecilia Kai Yin",
         diocese: "Banmaw",
-        image: "img/kaiyin.jpg"
+        image: "img/kaiyin.webp"
     },
     {
         name: "Christopher Ko Ko",
@@ -67,17 +67,17 @@ const graduatesList = [
     {
         name: "Elizabeth Thae Moe Khaing",
         diocese: "Banmaw",
-        image: "img/thaemo.jpg"
+        image: "img/thaemo.webp"
     },
     {
         name: "Maria Ei Jar",
         diocese: "Lashio",
-        image: "img/eijar.jpg"
+        image: "img/eijar.webp"
     },
     {
         name: "Mary Htoo",
         diocese: "Phekhon",
-        image: "img/kohto.jpg"
+        image: "img/kohto.webp"
     },
     {
         name: "Elizabeth Thang Awi",
@@ -87,27 +87,27 @@ const graduatesList = [
     {
         name: "Juliana Hla Ya Min Htike",
         diocese: "Mandalay",
-        image: "img/majuice.jpg"
+        image: "img/majuice.webp"
     },
     {
         name: "Mary No San Cing",
         diocese: "Kalay",
-        image: "img/ethan.jpg"
+        image: "img/ethan.webp"
     },
     {
         name: "Joseph Nang Zing La Mu",
         diocese: "Banmaw",
-        image: "img/lamu.jpg"
+        image: "img/lamu.webp"
     },
     {
         name: "Martha Yadana Oo",
         diocese: "Mawlamyine",
-        image: "img/marthaB.jpg"
+        image: "img/marthaB.webp"
     },
     {
         name: "Martha Hnin Thiri Wai",
         diocese: "Mawlamyine",
-        image: "img/marthaA.jpg"
+        image: "img/marthaA.webp"
     },
     {
         name: "Monica Nuam Deih Lawh Cing",
@@ -117,37 +117,42 @@ const graduatesList = [
     {
         name: "Cynthia Ko",
         diocese: "Taungoo",
-        image: "img/cynthia.jpg"
+        image: "img/cynthia.webp"
     },
     {
         name: "Rita Muduh Roi Sam",
         diocese: "Myitkyina",
-        image: "img/rita.jpg"
+        image: "img/rita.webp"
     },
     {
         name: "Cecilia Dim Muan Hau",
         diocese: "Kalay",
-        image: "img/muannu.jpg"
+        image: "img/muannu.webp"
     },
     {
         name: "Cecilia Ji Jan",
         diocese: "Bamaw",
-        image: "img/jijan.png"
+        image: "img/jijan.webp"
+    },
+    {
+        name: "Mary Htun",
+        diocese: "Pyay",
+        image: "img/maryhtun.webp"
     },
     {
         name: "Lawrence Tio",
         diocese: "Phekhone",
-        image: "img/lawrance.jpg"
+        image: "img/lawrance.webp"
     },
     {
         name: "John Mang Deih Khual",
         diocese: "Kalay",
-        image: "img/john.jpg"
+        image: "img/john.webp"
     },
     {
         name: "Margret Phray Mar",
         diocese: "Loikaw",
-        image: "img/magaret.jpg"
+        image: "img/magaret.webp"
     }
 ];
 
