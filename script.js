@@ -42,7 +42,7 @@ const graduatesList = [
     {
         name: "Theresa Seng Sawm Ing",
         diocese: "Myitkyina",
-        image: "img/sengsawm.webp"
+        image: "img/theresa.webp"
     },
     {
         name: "David Sam Sin",
@@ -153,6 +153,21 @@ const graduatesList = [
         name: "Margret Phray Mar",
         diocese: "Loikaw",
         image: "img/magaret.webp"
+    },
+    {
+        name: "Peter Zaw Myint Htun",
+        diocese: "Mandalay",
+        image: "img/peter.webp"
+    },
+    {
+        name: "Paul Sani Sut Nu",
+        diocese: "Myitkyina",
+        image: "img/sutnu.webp"
+    },
+    {
+        name: "Mary May Yee Zaw",
+        diocese: "Mandalay",
+        image: "img/zaw.webp"
     }
 ];
 
