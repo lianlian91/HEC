@@ -160,6 +160,11 @@ const graduatesList = [
         image: "img/peter.webp"
     },
     {
+        name: "Elizabeth Htu San",
+        diocese: "Lashio",
+        image: 'img/thusan.webp'
+    },
+    {
         name: "Paul Sani Sut Nu",
         diocese: "Myitkyina",
         image: "img/sutnu.webp"
