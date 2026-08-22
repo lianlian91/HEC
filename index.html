@@ -9,33 +9,34 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Great+Vibes&family=Montserrat:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Canvas Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <!-- ==================================================
-         PAGE 1: INVITATION CARD
+         SECTION 1: INVITATION CARD
     ================================================== -->
     <section class="hero-section" id="invitation">
         <div class="invitation-frame">
             <!-- Background Watermark Logo -->
             <img src="hec.webp" alt="Watermark" class="watermark-logo">
 
-            <!-- Corner Accents -->
+            <!-- Decorative Corner Accents -->
             <div class="corner-ornament corner-tl"></div>
             <div class="corner-ornament corner-tr"></div>
             <div class="corner-ornament corner-bl"></div>
             <div class="corner-ornament corner-br"></div>
 
             <div class="invitation-content">
-                <!-- Cap Icon -->
                 <div class="grad-cap-icon">
                     <i class="fa-solid fa-graduation-cap"></i>
                 </div>
@@ -78,9 +79,8 @@
                     </div>
                 </div>
 
-                <!-- (Google Maps Link) -->
-                <a href="https://www.google.com/maps/search/?api=1&query=St.+John's+Church+Compound,+Corner+of+61st+and+35th(C)+Streets,+Mandalay"
-                    target="_blank" class="location-footer-link">
+                <!-- Google Maps Link -->
+                <a href="https://maps.app.goo.gl/Wk9Xgxkmft4pRwREA" target="_blank" class="location-footer-link">
                     <i class="fa-solid fa-location-dot"></i>
                     <span>
                         St. John's Church Compound<br>
@@ -90,7 +90,7 @@
 
                 <!-- Scroll Down Button -->
                 <a href="#graduates" class="scroll-down-btn">
-                    <span>MEET OUR GRADUATING CLASS</span>
+                    <span>MEET OUR GRADUATES</span>
                     <i class="fa-solid fa-chevron-down"></i>
                 </a>
             </div>
@@ -98,7 +98,7 @@
     </section>
 
     <!-- ==================================================
-         PAGE 2: MEET OUR GRADUATING CLASS
+         SECTION 2: MEET OUR GRADUATING CLASS
     ================================================== -->
     <section class="graduates-section" id="graduates">
         <div class="section-header">
@@ -111,6 +111,16 @@
             </div>
         </div>
 
+        <!-- DIOCESE FILTER DROPDOWN -->
+        <div class="filter-container">
+            <label for="dioceseSelect" class="filter-label"><i class="fa-solid fa-filter"></i> Filter by Diocese:</label>
+            <select id="dioceseSelect" class="diocese-dropdown">
+                <option value="All">All Dioceses</option>
+                <!-- Dynamically populated via JS -->
+            </select>
+        </div>
+
+        <!-- GRADUATES GRID -->
         <div class="graduates-grid" id="graduatesContainer">
             <!-- Dynamically populated via JS -->
         </div>
@@ -119,27 +129,37 @@
             <p>© 2026 Mandalay Archdiocese Higher Education College. All rights reserved.</p>
         </footer>
     </section>
+
     <!-- ==================================================
-         GRADUATE DETAIL POPUP MODAL
+         GRADUATE PROFILE POPUP MODAL (WITH DIRECT WISH FORM)
     ================================================== -->
     <div class="modal-overlay" id="graduateModal">
         <div class="modal-card">
             <button class="modal-close-btn" id="closeModalBtn">&times;</button>
             <div class="modal-avatar-container">
-                <img src="" alt="Graduate Photo" id="modalImg" class="modal-avatar-img">
+                <img src="" alt="Photo" id="modalImg" class="modal-avatar-img">
             </div>
-            <h3 class="modal-name" id="modalName">Graduate Name</h3>
-            <div class="modal-badge" id="modalDiocese">Diocese Name</div>
-            <div class="modal-details">
+            <h3 class="modal-name" id="modalName">Name</h3>
+            <div class="modal-badge" id="modalDiocese">Badge</div>
+            <div class="modal-details" id="modalDetails">
                 Higher Education College • Batch 12
+            </div>
+
+            <!-- Direct Wish Form Inside Modal -->
+            <div class="modal-wish-section">
+                <hr class="modal-divider">
+                <p class="wish-title"><i class="fa-solid fa-paper-plane"></i> Send Wish to <span id="wishTargetName"></span></p>
+                <form id="modalWishForm">
+                    <input type="text" id="modalSenderName" placeholder="Your Name" required>
+                    <textarea id="modalWishMessage" rows="2" placeholder="Write your congratulatory wish..." required></textarea>
+                    <button type="submit" class="modal-send-btn">SEND WISH</button>
+                </form>
             </div>
         </div>
     </div>
-    <!-- ==================================================
-         JAVASCRIPT DATA & RENDER
-    ================================================== -->
+
+    <!-- Main JavaScript File -->
     <script src="script.js"></script>
-    <script defer src="/_vercel/speed-insights/script.js"></script>
 </body>
 
 </html>
