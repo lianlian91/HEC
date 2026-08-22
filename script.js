@@ -2,7 +2,7 @@
 // TELEGRAM BOT CONFIGURATION
 // ==================================================
 const TELEGRAM_BOT_TOKEN = "8902803349:AAGESMrnDTWq5HiJet313PqnGyawhIEhP4o"; // Replace with your Bot Token
-const TELEGRAM_CHAT_ID = "6181187735";     // Replace with your Chat ID
+const TELEGRAM_CHAT_ID = "-5271880722";     // Replace with your Chat ID
 
 // ==================================================
 // GRADUATES DATA LIST
@@ -26,7 +26,7 @@ const graduatesList = [
     { name: "Maria Ei Jar", diocese: "Lashio", image: "img/eijar.webp" },
     { name: "Mary Htoo", diocese: "Phekhon", image: "img/kohto.webp" },
     { name: "Elizabeth Thang Awi", diocese: "Mindat", image: "img/thangawi.jpeg" },
-    { name: "Juliana Hla Ya Min Htike", diocese: "Mandalay", image: "img/majuice.webp" },
+    { name: "Juliana Hla Yamin", diocese: "Mandalay", image: "img/majuice.webp" },
     { name: "Mary No San Cing", diocese: "Kalay", image: "img/ethan.webp" },
     { name: "Joseph NangZing La Mu", diocese: "Banmaw", image: "img/lamu.webp" },
     { name: "Martha Yadana Oo", diocese: "Mawlamyine", image: "img/marthaB.webp" },
